@@ -1,0 +1,29 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "Genesis_RTX_main",
+        "description": "Genesis RTX",
+        "url": "http://dev-rtx4/web2/",
+        "showTaskbarIcon": true,
+        "taskbarIcon": "http://cdn.openfin.co/hyperblotter/favicon.ico",
+        "icon": "http://cdn.openfin.co/hyperblotter/favicon.ico",
+        "uuid": "Genesis_RTX_main",
+        "autoShow": true,
+        "contextMenu": true,
+        "defaultWidth": 420,
+        "maxWidth": 420,
+        "minWidth": 420,
+        "frame": false,
+        "defaultCentered": false,
+        "resizable": false
+    },
+    "runtime": {
+        "arguments": "--enable-crash-reporting --no-sandbox",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "Genesis Global",
+        "description": "RTX",
+        "name": "RTX"
+    }
+}
